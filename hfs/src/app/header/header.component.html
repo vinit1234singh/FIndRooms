@@ -1,0 +1,9 @@
+
+<section class="nav-bar">
+    <div class="logo">Find Rooms</div>
+    <ul class="menu">
+      <li *ngFor="let item of Navigation"><a [routerLink]="item.href">{{item.label}}</a></li>
+    </ul>
+    
+    <router-outlet></router-outlet>
+  </section>
