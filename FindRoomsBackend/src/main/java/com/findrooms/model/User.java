@@ -24,10 +24,8 @@ public class User {
     private String email;
 
     private String address;
-    private String state;
-    private String country;
-    private Integer pincode;
     private Integer age;
-    private Integer mobile_number;
+    private Integer phone;
     private String password;
+    private String confirmpassword;
 }
